@@ -1,99 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <!-- link bootstrap -->
+    <title>
+      About Me
+    </title>
+
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Custom Fonts -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
+      href="https://jeromelachaud.com/freelancer-theme/css/font-awesome/css/font-awesome.min.css"
     />
-    <!-- link css stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      href="//fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Mara Goodman</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+
+  <body id="page-top" class="index">
+    <!-- Nav bar from bootstrap -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <a class="navbar-brand" href="#">Mara Goodman</a>
+          <button
+            class="navbar-toggle"
+            type="button"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
       </div>
+      <!-- /.container-fluid -->
     </nav>
-    <div class="mt-5 container">
-      <div class="row">
-        <div class="card col-12 col-md-8">
-          <div class="container card-body">
-            <div class="row">
-              <h2 class="col-12">About Me</h2>
-            </div>
-            <div class="row">
-              <img
-                class="card-img-top col-12 col-md-4"
-                src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/80105323_157154328934042_7626854873835597325_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=5flVRZR7Bm0AX84nwUj&oh=b79df831339816fb1b2d8ff84b98c629&oe=5EC1E434"
-                alt="Mara Goodman"
-              />
-              <p class="card-text col-12 col-md-8">
-                My name is Mara Goodman. I moved to New York about two years ago
-                to pursue my fashion career, after attending university in
-                Paris. I fell in love with Paris and am lucky enough to have the
-                opportunity to travel extensively for work (53 countries and
-                counting). I hope to move back someday! But in the meantime, I'm
-                quite content discovering everything that New York has to offer.
-                I hope to use the skills I learn in this course to further
-                integrate techology into the fashion landscape. I graudauted
-                university with a double BSc in Finance and International
-                Business Administration. As my job is heavily based in retail
-                mathematics and statistics,I intend to apply these
-                qualifications and newfound web development knowledge to
-                eventually create my own retail platform. Some of the things I
-                have fallen in love with in NYC are going to Yankees and Rangers
-                games, my beautiful apartment in the Meatpacking district, the
-                ability to get pizza at any hour of the day, the Strand
-                bookstore, soft serve ice cream, and the amazing people I've met
-                along the way.
-              </p>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <img
+              class="img-rounded"
+              src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/80105323_157154328934042_7626854873835597325_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=5flVRZR7Bm0AX84nwUj&oh=b79df831339816fb1b2d8ff84b98c629&oe=5EC1E434"
+              alt="Mara Goodman"
+            />
+            <div class="intro-text">
+              <span class="name">Mara Goodman</span>
+              <hr class="star-light" />
+              <span class="skills"
+                >Columbia Engineering Coding Bootcamp - Fashion Buyer - BS in
+                Finance and Business Administration</span
+              >
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="success" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>About Me</h2>
+            <hr class="star-light" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 col-offset-2">
+            <p>
+              My name is Mara Goodman. I moved to New York about two years ago
+              to pursue my fashion career, after attending university in Paris.
+              I fell in love with Paris and am lucky enough to have the
+              opportunity to travel extensively for work (53 countries and
+              counting). I hope to move back someday! But in the meantime, I'm
+              quite content discovering everything that New York has to offer. I
+              hope to use the skills I learn in this course to further integrate
+              techology into the fashion landscape. I graudauted university with
+              a double BSc in International Finance and Business Administration.
+            </p>
+          </div>
+          <div class="col-4">
+            <p>
+              As my job is heavily based in retail mathematics and statistics,I
+              intend to apply these qualifications and newfound web development
+              knowledge to eventually create my own retail platform. Some of the
+              things I have fallen in love with in NYC are going to Yankees and
+              Rangers games, my beautiful apartment in the Meatpacking district,
+              the ability to get pizza at any hour of the day, the Strand
+              bookstore, soft serve ice cream, and the amazing people I've met
+              along the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-4">
+              <h3>Location</h3>
+              <p>
+                75 Kenmare Street <br />
+
+                New York, NY 10012 <br />
+              </p>
+            </div>
+            <div class="footer-col col-md-4">
+              <h3>Find Me On</h3>
+              <ul class="list-inline">
+                <li>
+                  <a
+                    href="https://www.instagram.com/mara_goodman/"
+                    class="btn-social btn-outline"
+                    ><i class="fa fa-fw fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/MaraGoodman18"
+                    class="btn-social btn-outline"
+                    ><i class="fa fa-fw fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mara-goodman-9a124043/"
+                    class="btn-social btn-outline"
+                    ><i class="fa fa-fw fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/maragoodman"
+                    class="btn-social btn-outline"
+                    ><i class="fa fa-fw fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy;
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="https://jeromelachaud.com/freelancer-theme/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://jeromelachaud.com/freelancer-theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="https://jeromelachaud.com/freelancer-theme/js/freelancer.js"></script>
   </body>
 </html>
